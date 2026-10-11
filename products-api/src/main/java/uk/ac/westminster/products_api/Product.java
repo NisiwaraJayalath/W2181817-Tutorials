@@ -14,6 +14,7 @@ public class Product {
     }
 
     public Long getId() { return id; }
+    // Verified: removing this getter drops "name" from the JSON response
     public String getName() { return name; }
     public double getPrice() { return price; }
 }
